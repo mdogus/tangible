@@ -1,3 +1,3 @@
-cd C:\Users\user\Documents\Python Projects\tangible
+cd C:\Users\musta\Documents\Python Projects\tangible
 venv\Scripts\activate
 code .

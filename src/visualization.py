@@ -86,7 +86,7 @@ def plot_pie_chart(df, column_name, title="Pie Chart", explode=None, explode_ind
     wedges, texts, autotexts = plt.pie(data_counts, labels=labels, 
             #autopct=lambda pct: autopct_format(pct, data_counts.sum()), # autopct_format fonksiyonu
             autopct=lambda pct: f'%{pct:.1f}',
-            wedgeprops=(dict(width=wedge_width)),
+            wedgeprops=dict(width=0.4) if wedge_width else None,
             explode=explode, colors=colors, 
             shadow=shadow)
     
