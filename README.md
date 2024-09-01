@@ -1,6 +1,6 @@
 # tangible
 
-This project was developped for data analysis.
+This project was developped for data analysis using Python.
 
 ## Installation
 
