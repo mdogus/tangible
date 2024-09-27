@@ -54,6 +54,7 @@ def plot_categorical_distribution(df, column_name, hue=None, title="Categorical 
         plt.savefig(save_path)
     
     plt.show()
+    return ax
 
 # Pie chart
 def plot_pie_chart(df, column_name, title="Pie Chart", explode=None, explode_index=None, labels_with_count=None, shadow=None, label_text=None, autopct_text=None, wedge_width=None):
@@ -83,7 +84,7 @@ def plot_pie_chart(df, column_name, title="Pie Chart", explode=None, explode_ind
     """
     # Pasta grafiği çizimi
     fig, ax = plt.subplots(figsize=(8, 8))
-    wedges, texts, autotexts = plt.pie(data_counts, labels=labels, 
+    wedges, texts, autotexts = ax.pie(data_counts, labels=labels, 
             #autopct=lambda pct: autopct_format(pct, data_counts.sum()), # autopct_format fonksiyonu
             autopct=lambda pct: f'%{pct:.1f}',
             wedgeprops=dict(width=0.4) if wedge_width else None,
@@ -101,7 +102,32 @@ def plot_pie_chart(df, column_name, title="Pie Chart", explode=None, explode_ind
     
     plt.title(title, fontdict={'weight':'bold'})
     plt.show()
+    return ax
 
+# Yatay bar grafiği
+import matplotlib.pyplot as plt
+
+def plot_horizontal_bar_chart(df, column_name, title="Horizontal Bar Chart"):
+    # Verileri gruplandırma ve toplamlarını hesaplama
+    data_counts = df[column_name].value_counts()
+
+    # Grafik boyutları ve eksenleri ayarlama
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Yatay çubuk grafik oluşturma
+    ax.barh(data_counts.index, data_counts.values, color=plt.get_cmap('Set2').colors)
+
+    # Başlık ekleme
+    plt.title(title, fontdict={'weight': 'bold'})
+
+    # Etiket ekleme
+    plt.xlabel('Count')
+    plt.ylabel(column_name)
+
+    # Grafiği gösterme
+    plt.show()
+
+    return ax
 
 def plot_numerical_distribution(df, column_name, title="Numerical Distribution"):
     plt.figure(figsize=(10,6))

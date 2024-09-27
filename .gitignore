@@ -38,3 +38,5 @@ coverage.xml
 # TXT files 
 cmd_git.txt
 cmd_tangible.txt
+
+# lib folder
