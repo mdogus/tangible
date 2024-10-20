@@ -178,7 +178,7 @@ def plot_frequency_heatmap(pivot_table):
     plt.show()
 
 # (tangible) Frekans gösteren yatay bar grafiği
-def create_frequency_bar_tangible(df, column_y, y_label, title):
+def create_frequency_bar_tangible(df, column_y, y_label, title, show_frequency=False):
     frequency_df = df.groupby([column_y]).size().reset_index(name='f')
     
     # Özelleştirilmiş renk paleti (her bar için farklı bir renk)
@@ -190,10 +190,11 @@ def create_frequency_bar_tangible(df, column_y, y_label, title):
     ax = sns.barplot(x='f', y=column_y, data=frequency_df, orient='h', palette=palette, width=0.7)
 
     # Frekansları çubukların yanına doğru şekilde ekleme
-    for p in ax.patches:
-        width = int(p.get_width())
-        position = (p.get_width(), p.get_y() + p.get_height() / 2)
-        ax.annotate(f'{width}', xy=position, 
+    if show_frequency == True:
+        for p in ax.patches:
+            width = int(p.get_width())
+            position = (p.get_width(), p.get_y() + p.get_height() / 2)
+            ax.annotate(f'{width}', xy=position, 
                     xytext=(-10, 0), textcoords='offset points', ha='left', va='center', 
                     color='black',
                     bbox=dict(facecolor='white', edgecolor='black', boxstyle='round,pad=0.3'), 
