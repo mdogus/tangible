@@ -54,6 +54,7 @@ def plot_categorical_distribution(df, column_name, hue=None, title="Categorical 
         plt.savefig(save_path)
     
     plt.show()
+    return ax
 
 # Pie chart
 def plot_pie_chart(df, column_name, title="Pie Chart", explode=None, explode_index=None, labels_with_count=None, shadow=None, label_text=None, autopct_text=None, wedge_width=None):
@@ -83,7 +84,7 @@ def plot_pie_chart(df, column_name, title="Pie Chart", explode=None, explode_ind
     """
     # Pasta grafiği çizimi
     fig, ax = plt.subplots(figsize=(8, 8))
-    wedges, texts, autotexts = plt.pie(data_counts, labels=labels, 
+    wedges, texts, autotexts = ax.pie(data_counts, labels=labels, 
             #autopct=lambda pct: autopct_format(pct, data_counts.sum()), # autopct_format fonksiyonu
             autopct=lambda pct: f'%{pct:.1f}',
             wedgeprops=dict(width=0.4) if wedge_width else None,
@@ -101,7 +102,32 @@ def plot_pie_chart(df, column_name, title="Pie Chart", explode=None, explode_ind
     
     plt.title(title, fontdict={'weight':'bold'})
     plt.show()
+    return ax
 
+# Yatay bar grafiği
+import matplotlib.pyplot as plt
+
+def plot_horizontal_bar_chart(df, column_name, title="Horizontal Bar Chart"):
+    # Verileri gruplandırma ve toplamlarını hesaplama
+    data_counts = df[column_name].value_counts()
+
+    # Grafik boyutları ve eksenleri ayarlama
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Yatay çubuk grafik oluşturma
+    ax.barh(data_counts.index, data_counts.values, color=plt.get_cmap('Set2').colors)
+
+    # Başlık ekleme
+    plt.title(title, fontdict={'weight': 'bold'})
+
+    # Etiket ekleme
+    plt.xlabel('Count')
+    plt.ylabel(column_name)
+
+    # Grafiği gösterme
+    plt.show()
+
+    return ax
 
 def plot_numerical_distribution(df, column_name, title="Numerical Distribution"):
     plt.figure(figsize=(10,6))
@@ -152,7 +178,7 @@ def plot_frequency_heatmap(pivot_table):
     plt.show()
 
 # (tangible) Frekans gösteren yatay bar grafiği
-def create_frequency_bar_tangible(df, column_y, y_label, title):
+def create_frequency_bar_tangible(df, column_y, y_label, title, show_frequency=False):
     frequency_df = df.groupby([column_y]).size().reset_index(name='f')
     
     # Özelleştirilmiş renk paleti (her bar için farklı bir renk)
@@ -164,10 +190,11 @@ def create_frequency_bar_tangible(df, column_y, y_label, title):
     ax = sns.barplot(x='f', y=column_y, data=frequency_df, orient='h', palette=palette, width=0.7)
 
     # Frekansları çubukların yanına doğru şekilde ekleme
-    for p in ax.patches:
-        width = int(p.get_width())
-        position = (p.get_width(), p.get_y() + p.get_height() / 2)
-        ax.annotate(f'{width}', xy=position, 
+    if show_frequency == True:
+        for p in ax.patches:
+            width = int(p.get_width())
+            position = (p.get_width(), p.get_y() + p.get_height() / 2)
+            ax.annotate(f'{width}', xy=position, 
                     xytext=(-10, 0), textcoords='offset points', ha='left', va='center', 
                     color='black',
                     bbox=dict(facecolor='white', edgecolor='black', boxstyle='round,pad=0.3'), 

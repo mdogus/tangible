@@ -1,3 +1,4 @@
 cd C:\Users\user\Documents\Python Projects\tangible
 venv\Scripts\activate
+.\venv_whisper\Scripts\activate
 code .
