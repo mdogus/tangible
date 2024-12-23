@@ -6,8 +6,7 @@ git push
 To clone
 git clone git@github.com:mdogus/tangible.git
 
-
-venv için
+venv için:
 python -m venv venv
 venv\Scripts\activate   # Windows
 pip install -r requirements.txt

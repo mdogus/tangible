@@ -144,10 +144,10 @@ def plot_frequency_bar(frequency_df, col1, hue=None):
 
 def plot_frequency_heatmap(pivot_table):
     #plt.figure(figsize=(12, 8))
-    sns.heatmap(pivot_table, annot=True, fmt="d", cmap="YlGnBu")
+    sns.heatmap(pivot_table, annot=True, fmt="d", cmap="inferno")
     plt.title('Sıklık Analizi (Heatmap)')
     plt.xlabel('Subtheme')
-    plt.ylabel('Document')
+    plt.ylabel('ORAN-DURUM')
     plt.xticks(rotation=45)
     plt.show()
 
