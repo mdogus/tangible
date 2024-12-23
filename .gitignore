@@ -8,9 +8,11 @@ __pycache__/
 
 # Virtual environment
 venv/
+venv_whisper/
 ENV/
 env.bak/
 venv.bak/
+venv_whisper.bak/
 
 # Distribution / packaging
 .Python
