@@ -44,3 +44,7 @@ cmd_git.txt
 cmd_tangible.txt
 
 # lib folder
+lib
+
+# ENV File
+.env
