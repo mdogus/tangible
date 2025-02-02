@@ -129,6 +129,41 @@ def plot_horizontal_bar_chart(df, column_name, title="Horizontal Bar Chart"):
 
     return ax
 
+def plot_box_high_contrast(df, column='count'):
+    """
+    Yüksek kontrast renkler kullanarak bir boxplot çizer.
+    
+    Parametreler:
+    -------------
+    df : pandas.DataFrame
+        Boxplot'un çizileceği DataFrame
+    column : str
+        Boxplot için kullanılacak sütun adı (default: 'count')
+    """
+    fig, ax = plt.subplots(figsize=(6, 6))
+    
+    box = df.boxplot(
+        column=column,
+        ax=ax,
+        patch_artist=True,  # Kutuların doldurulmasını sağlar
+        boxprops=dict(facecolor='orange', color='black'),
+        medianprops=dict(color='blue', linewidth=3),
+        whiskerprops=dict(color='black', linewidth=3),
+    capprops=dict(color='black', linewidth=3),
+        flierprops=dict(
+            color='black', 
+            markeredgecolor='black', 
+            markerfacecolor='white'
+        )
+    )
+    
+    # Başlık, etiket vb.
+    ax.set_title(f'Boxplot with High Contrast Colors for "{column}"')
+    ax.set_ylabel(column)
+
+    plt.show()
+
+
 def plot_numerical_distribution(df, column_name, title="Numerical Distribution"):
     plt.figure(figsize=(10,6))
     sns.histplot(df[column_name], kde=True)
