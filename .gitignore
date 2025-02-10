@@ -8,11 +8,13 @@ __pycache__/
 
 # Virtual environment
 venv/
+venv_spacy/
 venv_whisper/
 venv_whisperx/
 ENV/
 env.bak/
 venv.bak/
+venv_spacy.bak/
 venv_whisper.bak/
 venv_whisperx.bak/
 

@@ -1,0 +1,5 @@
+pip install numpy==1.22.4
+pip install "thinc>=8.1.0,<8.2.0"
+pip install "spacy>=3.4.2,<3.5.0"
+
+pip install https://huggingface.co/turkish-nlp-suite/tr_core_news_trf/resolve/main/tr_core_news_trf-1.0-py3-none-any.whl
