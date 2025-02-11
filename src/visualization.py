@@ -203,13 +203,15 @@ def plot_frequency_bar(frequency_df, col1, hue=None):
     plt.legend(title='Subtheme')
     plt.show()
 
-def plot_frequency_heatmap(pivot_table):
-    #plt.figure(figsize=(12, 8))
-    sns.heatmap(pivot_table, annot=True, fmt="d", cmap="inferno")
-    plt.title('Sıklık Analizi (Heatmap)')
-    plt.xlabel('Subtheme')
-    plt.ylabel('ORAN-DURUM')
-    plt.xticks(rotation=45)
+def plot_frequency_heatmap(pivot_table, color_map="inferno", title="Sıcaklık Haritası (Heatmap)", x_label="", y_label=""):
+    plt.style.use("default")
+    plt.figure(figsize=(12, 6))
+    sns.heatmap(pivot_table, annot=True, fmt="d", cmap=color_map)
+    plt.title(title)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    #plt.xticks(rotation=45)
+    plt.yticks(rotation=0)
     plt.show()
 
 # (tangible) Frekans gösteren yatay bar grafiği
