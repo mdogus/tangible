@@ -1,0 +1,276 @@
+year,term,frequency
+1970,sakat,86
+1970,özürlü,95
+1970,engelli,15
+1970,yetersizliği olan,0
+1970,özel gereksinimli,0
+1971,sakat,81
+1971,özürlü,80
+1971,engelli,15
+1971,yetersizliği olan,0
+1971,özel gereksinimli,0
+1972,sakat,116
+1972,özürlü,111
+1972,engelli,8
+1972,yetersizliği olan,0
+1972,özel gereksinimli,0
+1973,sakat,98
+1973,özürlü,127
+1973,engelli,15
+1973,yetersizliği olan,0
+1973,özel gereksinimli,0
+1974,sakat,103
+1974,özürlü,133
+1974,engelli,0
+1974,yetersizliği olan,0
+1974,özel gereksinimli,0
+1975,sakat,192
+1975,özürlü,151
+1975,engelli,3
+1975,yetersizliği olan,0
+1975,özel gereksinimli,0
+1976,sakat,163
+1976,özürlü,178
+1976,engelli,15
+1976,yetersizliği olan,0
+1976,özel gereksinimli,0
+1977,sakat,189
+1977,özürlü,161
+1977,engelli,1
+1977,yetersizliği olan,0
+1977,özel gereksinimli,0
+1978,sakat,140
+1978,özürlü,120
+1978,engelli,3
+1978,yetersizliği olan,0
+1978,özel gereksinimli,0
+1979,sakat,112
+1979,özürlü,93
+1979,engelli,15
+1979,yetersizliği olan,0
+1979,özel gereksinimli,0
+1980,sakat,86
+1980,özürlü,146
+1980,engelli,16
+1980,yetersizliği olan,0
+1980,özel gereksinimli,0
+1981,sakat,155
+1981,özürlü,138
+1981,engelli,18
+1981,yetersizliği olan,0
+1981,özel gereksinimli,0
+1982,sakat,181
+1982,özürlü,188
+1982,engelli,18
+1982,yetersizliği olan,0
+1982,özel gereksinimli,0
+1983,sakat,100
+1983,özürlü,109
+1983,engelli,0
+1983,yetersizliği olan,0
+1983,özel gereksinimli,0
+1984,sakat,148
+1984,özürlü,140
+1984,engelli,15
+1984,yetersizliği olan,0
+1984,özel gereksinimli,0
+1985,sakat,114
+1985,özürlü,143
+1985,engelli,16
+1985,yetersizliği olan,0
+1985,özel gereksinimli,0
+1986,sakat,171
+1986,özürlü,109
+1986,engelli,13
+1986,yetersizliği olan,0
+1986,özel gereksinimli,0
+1987,sakat,184
+1987,özürlü,116
+1987,engelli,16
+1987,yetersizliği olan,0
+1987,özel gereksinimli,0
+1988,sakat,139
+1988,özürlü,176
+1988,engelli,19
+1988,yetersizliği olan,0
+1988,özel gereksinimli,0
+1989,sakat,97
+1989,özürlü,104
+1989,engelli,9
+1989,yetersizliği olan,0
+1989,özel gereksinimli,0
+1990,sakat,125
+1990,özürlü,103
+1990,engelli,17
+1990,yetersizliği olan,0
+1990,özel gereksinimli,0
+1991,sakat,106
+1991,özürlü,185
+1991,engelli,1
+1991,yetersizliği olan,0
+1991,özel gereksinimli,0
+1992,sakat,112
+1992,özürlü,88
+1992,engelli,10
+1992,yetersizliği olan,0
+1992,özel gereksinimli,0
+1993,sakat,172
+1993,özürlü,121
+1993,engelli,2
+1993,yetersizliği olan,0
+1993,özel gereksinimli,0
+1994,sakat,139
+1994,özürlü,86
+1994,engelli,3
+1994,yetersizliği olan,0
+1994,özel gereksinimli,0
+1995,sakat,144
+1995,özürlü,87
+1995,engelli,13
+1995,yetersizliği olan,0
+1995,özel gereksinimli,0
+1996,sakat,155
+1996,özürlü,194
+1996,engelli,14
+1996,yetersizliği olan,0
+1996,özel gereksinimli,0
+1997,sakat,111
+1997,özürlü,166
+1997,engelli,18
+1997,yetersizliği olan,0
+1997,özel gereksinimli,0
+1998,sakat,121
+1998,özürlü,149
+1998,engelli,14
+1998,yetersizliği olan,0
+1998,özel gereksinimli,0
+1999,sakat,176
+1999,özürlü,87
+1999,engelli,11
+1999,yetersizliği olan,0
+1999,özel gereksinimli,0
+2000,sakat,68
+2000,özürlü,33
+2000,engelli,65
+2000,yetersizliği olan,17
+2000,özel gereksinimli,24
+2001,sakat,59
+2001,özürlü,76
+2001,engelli,114
+2001,yetersizliği olan,12
+2001,özel gereksinimli,24
+2002,sakat,45
+2002,özürlü,42
+2002,engelli,89
+2002,yetersizliği olan,23
+2002,özel gereksinimli,21
+2003,sakat,48
+2003,özürlü,57
+2003,engelli,117
+2003,yetersizliği olan,27
+2003,özel gereksinimli,9
+2004,sakat,55
+2004,özürlü,52
+2004,engelli,68
+2004,yetersizliği olan,16
+2004,özel gereksinimli,25
+2005,sakat,0
+2005,özürlü,0
+2005,engelli,133
+2005,yetersizliği olan,61
+2005,özel gereksinimli,77
+2006,sakat,0
+2006,özürlü,0
+2006,engelli,100
+2006,yetersizliği olan,45
+2006,özel gereksinimli,68
+2007,sakat,0
+2007,özürlü,0
+2007,engelli,166
+2007,yetersizliği olan,41
+2007,özel gereksinimli,55
+2008,sakat,0
+2008,özürlü,0
+2008,engelli,156
+2008,yetersizliği olan,58
+2008,özel gereksinimli,43
+2009,sakat,0
+2009,özürlü,0
+2009,engelli,146
+2009,yetersizliği olan,78
+2009,özel gereksinimli,59
+2010,sakat,0
+2010,özürlü,0
+2010,engelli,54
+2010,yetersizliği olan,175
+2010,özel gereksinimli,115
+2011,sakat,0
+2011,özürlü,0
+2011,engelli,85
+2011,yetersizliği olan,132
+2011,özel gereksinimli,193
+2012,sakat,0
+2012,özürlü,0
+2012,engelli,54
+2012,yetersizliği olan,199
+2012,özel gereksinimli,133
+2013,sakat,0
+2013,özürlü,0
+2013,engelli,68
+2013,yetersizliği olan,157
+2013,özel gereksinimli,195
+2014,sakat,0
+2014,özürlü,0
+2014,engelli,94
+2014,yetersizliği olan,103
+2014,özel gereksinimli,115
+2015,sakat,0
+2015,özürlü,0
+2015,engelli,98
+2015,yetersizliği olan,191
+2015,özel gereksinimli,131
+2016,sakat,0
+2016,özürlü,0
+2016,engelli,99
+2016,yetersizliği olan,134
+2016,özel gereksinimli,132
+2017,sakat,0
+2017,özürlü,0
+2017,engelli,92
+2017,yetersizliği olan,111
+2017,özel gereksinimli,166
+2018,sakat,0
+2018,özürlü,0
+2018,engelli,89
+2018,yetersizliği olan,173
+2018,özel gereksinimli,142
+2019,sakat,0
+2019,özürlü,0
+2019,engelli,61
+2019,yetersizliği olan,194
+2019,özel gereksinimli,145
+2020,sakat,0
+2020,özürlü,0
+2020,engelli,99
+2020,yetersizliği olan,134
+2020,özel gereksinimli,186
+2021,sakat,0
+2021,özürlü,0
+2021,engelli,78
+2021,yetersizliği olan,125
+2021,özel gereksinimli,173
+2022,sakat,0
+2022,özürlü,0
+2022,engelli,90
+2022,yetersizliği olan,106
+2022,özel gereksinimli,167
+2023,sakat,0
+2023,özürlü,0
+2023,engelli,60
+2023,yetersizliği olan,128
+2023,özel gereksinimli,135
+2024,sakat,0
+2024,özürlü,0
+2024,engelli,86
+2024,yetersizliği olan,172
+2024,özel gereksinimli,123

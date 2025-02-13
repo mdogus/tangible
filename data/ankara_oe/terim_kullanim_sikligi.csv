@@ -1,0 +1,276 @@
+year,term,freq
+1970,sakat,96
+1971,sakat,107
+1972,sakat,100
+1973,sakat,94
+1974,sakat,89
+1975,sakat,87
+1976,sakat,97
+1977,sakat,87
+1978,sakat,85
+1979,sakat,77
+1980,sakat,79
+1981,sakat,72
+1982,sakat,69
+1983,sakat,78
+1984,sakat,70
+1985,sakat,64
+1986,sakat,61
+1987,sakat,71
+1988,sakat,69
+1989,sakat,72
+1990,sakat,63
+1991,sakat,68
+1992,sakat,65
+1993,sakat,63
+1994,sakat,65
+1995,sakat,57
+1996,sakat,63
+1997,sakat,44
+1998,sakat,44
+1999,sakat,56
+2000,sakat,43
+2001,sakat,43
+2002,sakat,39
+2003,sakat,48
+2004,sakat,33
+2005,sakat,41
+2006,sakat,43
+2007,sakat,32
+2008,sakat,24
+2009,sakat,40
+2010,sakat,33
+2011,sakat,23
+2012,sakat,27
+2013,sakat,21
+2014,sakat,26
+2015,sakat,12
+2016,sakat,22
+2017,sakat,23
+2018,sakat,8
+2019,sakat,20
+2020,sakat,9
+2021,sakat,3
+2022,sakat,0
+2023,sakat,1
+2024,sakat,4
+1970,özürlü,48
+1971,özürlü,51
+1972,özürlü,49
+1973,özürlü,58
+1974,özürlü,52
+1975,özürlü,61
+1976,özürlü,57
+1977,özürlü,63
+1978,özürlü,63
+1979,özürlü,67
+1980,özürlü,67
+1981,özürlü,66
+1982,özürlü,64
+1983,özürlü,69
+1984,özürlü,74
+1985,özürlü,77
+1986,özürlü,78
+1987,özürlü,79
+1988,özürlü,73
+1989,özürlü,83
+1990,özürlü,81
+1991,özürlü,80
+1992,özürlü,77
+1993,özürlü,68
+1994,özürlü,73
+1995,özürlü,71
+1996,özürlü,64
+1997,özürlü,60
+1998,özürlü,65
+1999,özürlü,58
+2000,özürlü,56
+2001,özürlü,52
+2002,özürlü,54
+2003,özürlü,57
+2004,özürlü,52
+2005,özürlü,53
+2006,özürlü,50
+2007,özürlü,46
+2008,özürlü,45
+2009,özürlü,42
+2010,özürlü,34
+2011,özürlü,31
+2012,özürlü,35
+2013,özürlü,33
+2014,özürlü,32
+2015,özürlü,27
+2016,özürlü,23
+2017,özürlü,26
+2018,özürlü,22
+2019,özürlü,17
+2020,özürlü,13
+2021,özürlü,13
+2022,özürlü,13
+2023,özürlü,9
+2024,özürlü,5
+1970,engelli,4
+1971,engelli,10
+1972,engelli,8
+1973,engelli,9
+1974,engelli,12
+1975,engelli,15
+1976,engelli,16
+1977,engelli,10
+1978,engelli,15
+1979,engelli,10
+1980,engelli,15
+1981,engelli,16
+1982,engelli,18
+1983,engelli,21
+1984,engelli,22
+1985,engelli,21
+1986,engelli,25
+1987,engelli,22
+1988,engelli,26
+1989,engelli,23
+1990,engelli,33
+1991,engelli,33
+1992,engelli,30
+1993,engelli,32
+1994,engelli,31
+1995,engelli,39
+1996,engelli,37
+1997,engelli,40
+1998,engelli,39
+1999,engelli,35
+2000,engelli,35
+2001,engelli,45
+2002,engelli,48
+2003,engelli,45
+2004,engelli,53
+2005,engelli,49
+2006,engelli,56
+2007,engelli,57
+2008,engelli,62
+2009,engelli,65
+2010,engelli,64
+2011,engelli,62
+2012,engelli,67
+2013,engelli,76
+2014,engelli,77
+2015,engelli,77
+2016,engelli,82
+2017,engelli,85
+2018,engelli,83
+2019,engelli,82
+2020,engelli,85
+2021,engelli,96
+2022,engelli,93
+2023,engelli,98
+2024,engelli,96
+1970,yetersizliği olan,1
+1971,yetersizliği olan,0
+1972,yetersizliği olan,0
+1973,yetersizliği olan,0
+1974,yetersizliği olan,2
+1975,yetersizliği olan,0
+1976,yetersizliği olan,1
+1977,yetersizliği olan,0
+1978,yetersizliği olan,0
+1979,yetersizliği olan,0
+1980,yetersizliği olan,3
+1981,yetersizliği olan,1
+1982,yetersizliği olan,2
+1983,yetersizliği olan,0
+1984,yetersizliği olan,3
+1985,yetersizliği olan,0
+1986,yetersizliği olan,0
+1987,yetersizliği olan,2
+1988,yetersizliği olan,1
+1989,yetersizliği olan,1
+1990,yetersizliği olan,1
+1991,yetersizliği olan,4
+1992,yetersizliği olan,2
+1993,yetersizliği olan,4
+1994,yetersizliği olan,2
+1995,yetersizliği olan,4
+1996,yetersizliği olan,3
+1997,yetersizliği olan,4
+1998,yetersizliği olan,3
+1999,yetersizliği olan,3
+2000,yetersizliği olan,5
+2001,yetersizliği olan,4
+2002,yetersizliği olan,2
+2003,yetersizliği olan,4
+2004,yetersizliği olan,3
+2005,yetersizliği olan,5
+2006,yetersizliği olan,2
+2007,yetersizliği olan,5
+2008,yetersizliği olan,3
+2009,yetersizliği olan,4
+2010,yetersizliği olan,4
+2011,yetersizliği olan,6
+2012,yetersizliği olan,8
+2013,yetersizliği olan,11
+2014,yetersizliği olan,13
+2015,yetersizliği olan,11
+2016,yetersizliği olan,13
+2017,yetersizliği olan,18
+2018,yetersizliği olan,19
+2019,yetersizliği olan,20
+2020,yetersizliği olan,23
+2021,yetersizliği olan,22
+2022,yetersizliği olan,26
+2023,yetersizliği olan,29
+2024,yetersizliği olan,31
+1970,özel gereksinimli,1
+1971,özel gereksinimli,1
+1972,özel gereksinimli,0
+1973,özel gereksinimli,1
+1974,özel gereksinimli,1
+1975,özel gereksinimli,1
+1976,özel gereksinimli,1
+1977,özel gereksinimli,0
+1978,özel gereksinimli,0
+1979,özel gereksinimli,1
+1980,özel gereksinimli,0
+1981,özel gereksinimli,0
+1982,özel gereksinimli,1
+1983,özel gereksinimli,0
+1984,özel gereksinimli,0
+1985,özel gereksinimli,0
+1986,özel gereksinimli,1
+1987,özel gereksinimli,1
+1988,özel gereksinimli,0
+1989,özel gereksinimli,0
+1990,özel gereksinimli,1
+1991,özel gereksinimli,1
+1992,özel gereksinimli,0
+1993,özel gereksinimli,0
+1994,özel gereksinimli,0
+1995,özel gereksinimli,1
+1996,özel gereksinimli,0
+1997,özel gereksinimli,1
+1998,özel gereksinimli,0
+1999,özel gereksinimli,0
+2000,özel gereksinimli,2
+2001,özel gereksinimli,2
+2002,özel gereksinimli,0
+2003,özel gereksinimli,0
+2004,özel gereksinimli,2
+2005,özel gereksinimli,2
+2006,özel gereksinimli,2
+2007,özel gereksinimli,1
+2008,özel gereksinimli,0
+2009,özel gereksinimli,2
+2010,özel gereksinimli,0
+2011,özel gereksinimli,1
+2012,özel gereksinimli,1
+2013,özel gereksinimli,2
+2014,özel gereksinimli,1
+2015,özel gereksinimli,0
+2016,özel gereksinimli,2
+2017,özel gereksinimli,0
+2018,özel gereksinimli,0
+2019,özel gereksinimli,2
+2020,özel gereksinimli,2
+2021,özel gereksinimli,7
+2022,özel gereksinimli,13
+2023,özel gereksinimli,19
+2024,özel gereksinimli,26

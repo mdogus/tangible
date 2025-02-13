@@ -2,6 +2,7 @@ import pandas as pd
 import random
 import matplotlib.pyplot as plt
 import seaborn as sns
+import textwrap
 
 # Kategorik Dağılım
 def plot_categorical_distribution(df, column_name, hue=None, title="Categorical Distribution", save_path=None, column_order=None, hue_order=None):
@@ -206,12 +207,18 @@ def plot_frequency_bar(frequency_df, col1, hue=None):
 def plot_frequency_heatmap(pivot_table, color_map="inferno", title="Sıcaklık Haritası (Heatmap)", x_label="", y_label=""):
     plt.style.use("default")
     plt.figure(figsize=(12, 6))
-    sns.heatmap(pivot_table, annot=True, fmt="d", cmap=color_map)
+    ax = sns.heatmap(pivot_table, annot=True, fmt="d", cmap=color_map, annot_kws={"rotation": 90})
+    
+    # Yatay ve dikey etiketleri ayarlama
     plt.title(title)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
-    #plt.xticks(rotation=45)
-    plt.yticks(rotation=0)
+
+    # Y-tick etiketlerini satır kaydırarak güncelleme
+    y_labels = pivot_table.index.astype(str).tolist()
+    wrapped_labels = [textwrap.fill(label, width=12) for label in y_labels]
+    ax.set_yticklabels(wrapped_labels, rotation=0)
+
     plt.show()
 
 # (tangible) Frekans gösteren yatay bar grafiği
